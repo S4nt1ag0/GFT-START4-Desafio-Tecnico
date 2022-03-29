@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23b8837c-d1ac-45f6-ad64-2e85a9b5cb5f" name="Changes" comment="init steps ex1 Java">
-      <change afterPath="$PROJECT_DIR$/ex2/src/ProgramEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex3/src/entities/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/src/ProgramEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/src/ProgramEx2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex3/src/ProgramEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex3/src/ProgramEx3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,7 @@
       <updated>1648581294447</updated>
       <workItem from="1648581296636" duration="1324000" />
       <workItem from="1648582667119" duration="183000" />
-      <workItem from="1648582882105" duration="1083000" />
+      <workItem from="1648582882105" duration="1464000" />
     </task>
     <task id="LOCAL-00001" summary="init steps ex1 Java">
       <created>1648582831366</created>
