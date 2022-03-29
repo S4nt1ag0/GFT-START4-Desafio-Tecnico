@@ -1,7 +1,4 @@
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class ProgramEx2 {
     public static void main(String[] args) {
@@ -13,8 +10,10 @@ public class ProgramEx2 {
                 System.out.println("Porfavor execute novamente e informe um valor valido");
                 return;
             }
+            //bom, não foi informado o tipo dos valores então tomei a liberdade de considerar eles inteiors
             Set<Integer> vector = new TreeSet<>();
-            System.out.println("agora infome os valores do vetor: somente numeros inteiros são permitidos!");
+
+            System.out.println("agora infome os valores do vetor: (somente numeros inteiros são permitidos!)");
             for(int i = 0; i<N; i++){
                 int tempValues = sc.nextInt();
                 vector.add(tempValues);
@@ -24,9 +23,10 @@ public class ProgramEx2 {
                 System.out.println(value);
             }
 
-        }catch (RuntimeException e){
-            System.out.println("invalid Value");
-            e.printStackTrace();
+        }catch (InputMismatchException e){
+            System.out.println("Você digitou um valor invalido, execute o programa novamente");
+        }finally {
+            sc.close();
         }
 
 
